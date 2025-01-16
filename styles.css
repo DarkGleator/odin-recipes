@@ -13,4 +13,29 @@ body {
 .title{
     font-weight: 200;
     font-size: 60px;
+    text-align: center;
+}
+
+.lista-o{
+    background-color: rgb(92, 92, 18);
+}
+
+#volta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: rgb(87, 54, 54);
+    font-size: 25px;
+}
+
+li{
+    color: rgb(41, 9, 9);
+}
+
+.li-item{
+    color: rgb(10, 36, 58);
+}
+
+p {
+    font-weight: 200;
+    color: blue;
 }
