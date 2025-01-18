@@ -1,6 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
+    margin-left: 10px;
 }
 
 .lista{
@@ -8,16 +15,22 @@ body {
     font-weight: 800;
     color: green;
     background-color: lightblue;
+    text-align: center;
+    margin: 12px auto;
+    padding: 20px 20px;
+    border: 6px solid lightgreen;
 }
 
 .title{
     font-weight: 200;
     font-size: 60px;
     text-align: center;
+    margin: 20px ;
 }
 
 .lista-o{
     background-color: rgb(92, 92, 18);
+    padding: 25px;
 }
 
 #volta{
@@ -25,6 +38,9 @@ body {
     font-weight: 800;
     color: rgb(87, 54, 54);
     font-size: 25px;
+    padding: 15px 20px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 25px;
 }
 
 li{
