@@ -7,18 +7,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
-    margin-left: 10px;
 }
 
 .lista{
-    font-size: 24px;
-    font-weight: 800;
-    color: green;
-    background-color: lightblue;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(198, 213, 218);
     text-align: center;
     margin: 12px auto;
-    padding: 20px 20px;
-    border: 6px solid lightgreen;
+    padding: 10px;
+    border: 6px solid rgb(37, 43, 37);
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+.lista li{
+    list-style-type: none;
+    padding: 20px;
 }
 
 .title{
@@ -29,8 +34,18 @@ body {
 }
 
 .lista-o{
-    background-color: rgb(92, 92, 18);
+    background-color: rgb(185, 185, 151);
     padding: 25px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    border: 6px solid rgb(37, 43, 37);
+    border-radius: 12px;
+    font-weight: 400;
+}
+.lista-o li {
+    padding: 6px;
 }
 
 #volta{
